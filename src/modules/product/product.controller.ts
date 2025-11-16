@@ -9,15 +9,15 @@ import {
 import { Selectable } from 'kysely';
 import { z } from 'zod';
 
-import type { DB } from 'src/common/dto/main-database.dto';
-import type { ElasticProduct } from 'src/common/dto/elasticsearch.dto';
-import { ZodValidationPipe } from 'src/common/pipes/zod-validation.pipe';
-import { ParsePositiveIntPipe } from 'src/common/pipes/parse-positive-int.pipe';
-import { parseSelect } from 'src/common/pipes/zod-parse-select';
+import type { DB } from '../../common/dto/main-database.dto';
+import type { ElasticProduct } from '../../common/dto/elasticsearch.dto';
+import { ZodValidationPipe } from '../../common/pipes/zod-validation.pipe';
+import { ParsePositiveIntPipe } from '../../common/pipes/parse-positive-int.pipe';
+import { parseSelect } from '../../common/pipes/zod-parse-select';
 import { MainDatabaseService } from '../main-database/main-database.service';
 import { ProductSearchService } from '../search/product-search.service';
+import { PaginatedResponse } from '../../common/dto/paginated-response.dto';
 import { DEFAULT_PRODUCT_SELECT, AVAILABLE_PRODUCT_SELECT } from './constants';
-import { PaginatedResponse } from 'src/common/dto/paginated-response.dto';
 import {
   GetProductsQuerySchema,
   type GetProductsQuery,

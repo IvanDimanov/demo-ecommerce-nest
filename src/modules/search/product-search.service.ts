@@ -3,9 +3,9 @@ import { Logger } from '@nestjs/common';
 import { ElasticsearchService } from '@nestjs/elasticsearch';
 import type * as es from '@elastic/elasticsearch';
 
-import type { ElasticProduct } from 'src/common/dto/elasticsearch.dto';
+import type { ElasticProduct } from '../../common/dto/elasticsearch.dto';
 import { type GetProductsQuery } from '../product/dto/get-products-query.dto';
-import { PaginatedResponse } from 'src/common/dto/paginated-response.dto';
+import { PaginatedResponse } from '../../common/dto/paginated-response.dto';
 
 const analyzableFields = ['category', 'tags', 'availabilityStatus'];
 
@@ -159,6 +159,7 @@ export class ProductSearchService {
         return result.hits.total;
       }
       if (
+        result.hits.total &&
         typeof result.hits.total === 'object' &&
         typeof result.hits.total.value === 'number'
       ) {

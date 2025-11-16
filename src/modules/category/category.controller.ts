@@ -2,10 +2,10 @@ import { Controller, Get, Query } from '@nestjs/common';
 import { ApiOperation, ApiQuery, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { Selectable } from 'kysely';
 
-import type { DB } from 'src/common/dto/main-database.dto';
+import type { DB } from '../../common/dto/main-database.dto';
 import { MainDatabaseService } from '../main-database/main-database.service';
-import { ZodValidationPipe } from 'src/common/pipes/zod-validation.pipe';
-import { PaginatedResponse } from 'src/common/dto/paginated-response.dto';
+import { ZodValidationPipe } from '../../common/pipes/zod-validation.pipe';
+import { PaginatedResponse } from '../../common/dto/paginated-response.dto';
 import {
   GetCategoriesQuerySchema,
   type GetCategoriesQuery,

@@ -9,21 +9,21 @@ import {
 } from 'kysely';
 import { InjectKysely } from 'nestjs-kysely';
 
-import type { DB } from 'src/common/dto/main-database.dto';
+import type { DB } from '../../common/dto/main-database.dto';
 import {
   DEFAULT_SELECT,
   DEFAULT_ORDER_BY,
   DEFAULT_PAGE,
   DEFAULT_PAGE_SIZE,
-} from 'src/common/constants';
+} from '../../common/constants';
 import type {
   GetAllItemsArgs,
   ProductAggregation,
   AvailabilityStatus,
 } from './dto';
-import { PaginatedResponse } from 'src/common/dto/paginated-response.dto';
-import { textSearchOperations as categoryTextSearchOperations } from 'src/modules/category/pipes/zod-parse-category-search';
-import { textSearchOperations as productTextSearchOperations } from 'src/modules/product/pipes/zod-parse-product-search';
+import { PaginatedResponse } from '../../common/dto/paginated-response.dto';
+import { textSearchOperations as categoryTextSearchOperations } from '../../modules/category/pipes/zod-parse-category-search';
+import { textSearchOperations as productTextSearchOperations } from '../../modules/product/pipes/zod-parse-product-search';
 
 const injectKysely = InjectKysely as (namespace?: string) => ParameterDecorator;
 
