@@ -25,10 +25,10 @@ docker compose up
 
 ## System Structure
 
-Once Docker is running, the project will be available at `http://localhost:3000`.
-Under the hood, all services are carefully orchestrated in `docker-compose.yml` file.
+Once Docker is running, the project will be available at [http://localhost:3000](http://localhost:3000).
+Under the hood, all services are carefully orchestrated in [docker-compose.yml](https://github.com/IvanDimanov/demo-ecommerce-nest/blob/main/docker-compose.yml) file.
 
-BackEnd can be tested using Swagger UI at `http://localhost:3000/swagger`.
+BackEnd can be tested using Swagger UI at [http://localhost:3000/swagger](http://localhost:3000/swagger).
 [![Swagger UI](https://raw.githubusercontent.com/IvanDimanov/demo-ecommerce-nest/master/images/swagger-ui.png)](http://localhost:3000)
 
 Database schema can be viewed in `dbdiagram.io` at [https://dbdiagram.io/d/Demo-eCommerce-NestJS-691a31166735e11170106abb](https://dbdiagram.io/d/Demo-eCommerce-NestJS-691a31166735e11170106abb).
