@@ -29,7 +29,7 @@ Once Docker is running, the project will be available at [http://localhost:3000]
 Under the hood, all services are carefully orchestrated in [docker-compose.yml](https://github.com/IvanDimanov/demo-ecommerce-nest/blob/main/docker-compose.yml) file.
 
 BackEnd can be tested using Swagger UI at [http://localhost:3000/swagger](http://localhost:3000/swagger).
-[![Swagger UI](https://raw.githubusercontent.com/IvanDimanov/demo-ecommerce-nest/master/images/swagger-ui.png)](http://localhost:3000)
+[![Swagger UI](https://raw.githubusercontent.com/IvanDimanov/demo-ecommerce-nest/master/images/swagger-ui.png)](http://localhost:3000/swagger)
 
 Database schema can be viewed in `dbdiagram.io` at [https://dbdiagram.io/d/Demo-eCommerce-NestJS-691a31166735e11170106abb](https://dbdiagram.io/d/Demo-eCommerce-NestJS-691a31166735e11170106abb).
 [![Database Schema](https://raw.githubusercontent.com/IvanDimanov/demo-ecommerce-nest/master/images/db-schema.png)](https://dbdiagram.io/d/Demo-eCommerce-NestJS-691a31166735e11170106abb)
