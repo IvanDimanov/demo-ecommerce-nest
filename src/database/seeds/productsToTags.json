@@ -1,0 +1,690 @@
+[
+  {
+    "productId": 1,
+    "tagId": 1
+  },
+  {
+    "productId": 1,
+    "tagId": 2
+  },
+  {
+    "productId": 2,
+    "tagId": 1
+  },
+  {
+    "productId": 2,
+    "tagId": 3
+  },
+  {
+    "productId": 3,
+    "tagId": 1
+  },
+  {
+    "productId": 3,
+    "tagId": 4
+  },
+  {
+    "productId": 4,
+    "tagId": 1
+  },
+  {
+    "productId": 4,
+    "tagId": 5
+  },
+  {
+    "productId": 5,
+    "tagId": 1
+  },
+  {
+    "productId": 5,
+    "tagId": 6
+  },
+  {
+    "productId": 6,
+    "tagId": 7
+  },
+  {
+    "productId": 6,
+    "tagId": 8
+  },
+  {
+    "productId": 7,
+    "tagId": 7
+  },
+  {
+    "productId": 7,
+    "tagId": 8
+  },
+  {
+    "productId": 8,
+    "tagId": 7
+  },
+  {
+    "productId": 8,
+    "tagId": 8
+  },
+  {
+    "productId": 9,
+    "tagId": 7
+  },
+  {
+    "productId": 9,
+    "tagId": 8
+  },
+  {
+    "productId": 10,
+    "tagId": 7
+  },
+  {
+    "productId": 10,
+    "tagId": 8
+  },
+  {
+    "productId": 11,
+    "tagId": 9
+  },
+  {
+    "productId": 11,
+    "tagId": 10
+  },
+  {
+    "productId": 12,
+    "tagId": 9
+  },
+  {
+    "productId": 12,
+    "tagId": 11
+  },
+  {
+    "productId": 13,
+    "tagId": 9
+  },
+  {
+    "productId": 13,
+    "tagId": 12
+  },
+  {
+    "productId": 14,
+    "tagId": 9
+  },
+  {
+    "productId": 14,
+    "tagId": 13
+  },
+  {
+    "productId": 15,
+    "tagId": 9
+  },
+  {
+    "productId": 15,
+    "tagId": 14
+  },
+  {
+    "productId": 16,
+    "tagId": 15
+  },
+  {
+    "productId": 17,
+    "tagId": 16
+  },
+  {
+    "productId": 18,
+    "tagId": 17
+  },
+  {
+    "productId": 18,
+    "tagId": 18
+  },
+  {
+    "productId": 19,
+    "tagId": 16
+  },
+  {
+    "productId": 20,
+    "tagId": 19
+  },
+  {
+    "productId": 21,
+    "tagId": 20
+  },
+  {
+    "productId": 22,
+    "tagId": 17
+  },
+  {
+    "productId": 22,
+    "tagId": 21
+  },
+  {
+    "productId": 23,
+    "tagId": 22
+  },
+  {
+    "productId": 24,
+    "tagId": 23
+  },
+  {
+    "productId": 25,
+    "tagId": 20
+  },
+  {
+    "productId": 26,
+    "tagId": 20
+  },
+  {
+    "productId": 27,
+    "tagId": 24
+  },
+  {
+    "productId": 28,
+    "tagId": 25
+  },
+  {
+    "productId": 29,
+    "tagId": 26
+  },
+  {
+    "productId": 30,
+    "tagId": 15
+  },
+  {
+    "productId": 31,
+    "tagId": 15
+  },
+  {
+    "productId": 32,
+    "tagId": 22
+  },
+  {
+    "productId": 33,
+    "tagId": 15
+  },
+  {
+    "productId": 34,
+    "tagId": 26
+  },
+  {
+    "productId": 34,
+    "tagId": 27
+  },
+  {
+    "productId": 35,
+    "tagId": 20
+  },
+  {
+    "productId": 36,
+    "tagId": 28
+  },
+  {
+    "productId": 37,
+    "tagId": 20
+  },
+  {
+    "productId": 38,
+    "tagId": 29
+  },
+  {
+    "productId": 39,
+    "tagId": 26
+  },
+  {
+    "productId": 40,
+    "tagId": 15
+  },
+  {
+    "productId": 41,
+    "tagId": 30
+  },
+  {
+    "productId": 42,
+    "tagId": 26
+  },
+  {
+    "productId": 43,
+    "tagId": 31
+  },
+  {
+    "productId": 43,
+    "tagId": 32
+  },
+  {
+    "productId": 44,
+    "tagId": 31
+  },
+  {
+    "productId": 44,
+    "tagId": 33
+  },
+  {
+    "productId": 45,
+    "tagId": 31
+  },
+  {
+    "productId": 45,
+    "tagId": 34
+  },
+  {
+    "productId": 46,
+    "tagId": 31
+  },
+  {
+    "productId": 46,
+    "tagId": 35
+  },
+  {
+    "productId": 47,
+    "tagId": 31
+  },
+  {
+    "productId": 47,
+    "tagId": 36
+  },
+  {
+    "productId": 48,
+    "tagId": 37
+  },
+  {
+    "productId": 48,
+    "tagId": 38
+  },
+  {
+    "productId": 49,
+    "tagId": 39
+  },
+  {
+    "productId": 49,
+    "tagId": 40
+  },
+  {
+    "productId": 50,
+    "tagId": 37
+  },
+  {
+    "productId": 50,
+    "tagId": 38
+  },
+  {
+    "productId": 51,
+    "tagId": 41
+  },
+  {
+    "productId": 51,
+    "tagId": 42
+  },
+  {
+    "productId": 52,
+    "tagId": 43
+  },
+  {
+    "productId": 52,
+    "tagId": 44
+  },
+  {
+    "productId": 53,
+    "tagId": 37
+  },
+  {
+    "productId": 53,
+    "tagId": 45
+  },
+  {
+    "productId": 54,
+    "tagId": 37
+  },
+  {
+    "productId": 54,
+    "tagId": 46
+  },
+  {
+    "productId": 55,
+    "tagId": 37
+  },
+  {
+    "productId": 55,
+    "tagId": 47
+  },
+  {
+    "productId": 56,
+    "tagId": 41
+  },
+  {
+    "productId": 56,
+    "tagId": 48
+  },
+  {
+    "productId": 57,
+    "tagId": 37
+  },
+  {
+    "productId": 57,
+    "tagId": 49
+  },
+  {
+    "productId": 58,
+    "tagId": 37
+  },
+  {
+    "productId": 58,
+    "tagId": 38
+  },
+  {
+    "productId": 59,
+    "tagId": 39
+  },
+  {
+    "productId": 59,
+    "tagId": 50
+  },
+  {
+    "productId": 60,
+    "tagId": 37
+  },
+  {
+    "productId": 60,
+    "tagId": 51
+  },
+  {
+    "productId": 61,
+    "tagId": 41
+  },
+  {
+    "productId": 61,
+    "tagId": 42
+  },
+  {
+    "productId": 62,
+    "tagId": 37
+  },
+  {
+    "productId": 62,
+    "tagId": 52
+  },
+  {
+    "productId": 63,
+    "tagId": 37
+  },
+  {
+    "productId": 63,
+    "tagId": 49
+  },
+  {
+    "productId": 64,
+    "tagId": 37
+  },
+  {
+    "productId": 64,
+    "tagId": 53
+  },
+  {
+    "productId": 65,
+    "tagId": 37
+  },
+  {
+    "productId": 65,
+    "tagId": 54
+  },
+  {
+    "productId": 66,
+    "tagId": 41
+  },
+  {
+    "productId": 66,
+    "tagId": 55
+  },
+  {
+    "productId": 67,
+    "tagId": 37
+  },
+  {
+    "productId": 67,
+    "tagId": 56
+  },
+  {
+    "productId": 68,
+    "tagId": 43
+  },
+  {
+    "productId": 68,
+    "tagId": 57
+  },
+  {
+    "productId": 69,
+    "tagId": 58
+  },
+  {
+    "productId": 69,
+    "tagId": 59
+  },
+  {
+    "productId": 70,
+    "tagId": 37
+  },
+  {
+    "productId": 70,
+    "tagId": 60
+  },
+  {
+    "productId": 71,
+    "tagId": 43
+  },
+  {
+    "productId": 71,
+    "tagId": 61
+  },
+  {
+    "productId": 72,
+    "tagId": 37
+  },
+  {
+    "productId": 72,
+    "tagId": 62
+  },
+  {
+    "productId": 73,
+    "tagId": 37
+  },
+  {
+    "productId": 73,
+    "tagId": 56
+  },
+  {
+    "productId": 74,
+    "tagId": 37
+  },
+  {
+    "productId": 74,
+    "tagId": 38
+  },
+  {
+    "productId": 75,
+    "tagId": 63
+  },
+  {
+    "productId": 75,
+    "tagId": 64
+  },
+  {
+    "productId": 76,
+    "tagId": 37
+  },
+  {
+    "productId": 76,
+    "tagId": 65
+  },
+  {
+    "productId": 77,
+    "tagId": 37
+  },
+  {
+    "productId": 77,
+    "tagId": 66
+  },
+  {
+    "productId": 78,
+    "tagId": 67
+  },
+  {
+    "productId": 78,
+    "tagId": 68
+  },
+  {
+    "productId": 79,
+    "tagId": 67
+  },
+  {
+    "productId": 80,
+    "tagId": 67
+  },
+  {
+    "productId": 81,
+    "tagId": 67
+  },
+  {
+    "productId": 82,
+    "tagId": 67
+  },
+  {
+    "productId": 83,
+    "tagId": 69
+  },
+  {
+    "productId": 83,
+    "tagId": 70
+  },
+  {
+    "productId": 84,
+    "tagId": 69
+  },
+  {
+    "productId": 84,
+    "tagId": 71
+  },
+  {
+    "productId": 85,
+    "tagId": 69
+  },
+  {
+    "productId": 85,
+    "tagId": 70
+  },
+  {
+    "productId": 86,
+    "tagId": 69
+  },
+  {
+    "productId": 86,
+    "tagId": 70
+  },
+  {
+    "productId": 87,
+    "tagId": 69
+  },
+  {
+    "productId": 87,
+    "tagId": 70
+  },
+  {
+    "productId": 88,
+    "tagId": 72
+  },
+  {
+    "productId": 88,
+    "tagId": 73
+  },
+  {
+    "productId": 89,
+    "tagId": 72
+  },
+  {
+    "productId": 89,
+    "tagId": 74
+  },
+  {
+    "productId": 90,
+    "tagId": 72
+  },
+  {
+    "productId": 90,
+    "tagId": 75
+  },
+  {
+    "productId": 91,
+    "tagId": 72
+  },
+  {
+    "productId": 91,
+    "tagId": 73
+  },
+  {
+    "productId": 92,
+    "tagId": 72
+  },
+  {
+    "productId": 92,
+    "tagId": 75
+  },
+  {
+    "productId": 93,
+    "tagId": 76
+  },
+  {
+    "productId": 93,
+    "tagId": 77
+  },
+  {
+    "productId": 94,
+    "tagId": 76
+  },
+  {
+    "productId": 94,
+    "tagId": 78
+  },
+  {
+    "productId": 95,
+    "tagId": 76
+  },
+  {
+    "productId": 95,
+    "tagId": 78
+  },
+  {
+    "productId": 96,
+    "tagId": 76
+  },
+  {
+    "productId": 96,
+    "tagId": 78
+  },
+  {
+    "productId": 97,
+    "tagId": 76
+  },
+  {
+    "productId": 97,
+    "tagId": 78
+  },
+  {
+    "productId": 98,
+    "tagId": 76
+  },
+  {
+    "productId": 98,
+    "tagId": 78
+  },
+  {
+    "productId": 99,
+    "tagId": 79
+  },
+  {
+    "productId": 99,
+    "tagId": 80
+  },
+  {
+    "productId": 100,
+    "tagId": 79
+  },
+  {
+    "productId": 100,
+    "tagId": 81
+  }
+]

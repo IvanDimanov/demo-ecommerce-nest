@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "name": "beauty"
+  },
+  {
+    "id": 2,
+    "name": "mascara"
+  },
+  {
+    "id": 3,
+    "name": "eyeshadow"
+  },
+  {
+    "id": 4,
+    "name": "face powder"
+  },
+  {
+    "id": 5,
+    "name": "lipstick"
+  },
+  {
+    "id": 6,
+    "name": "nail polish"
+  },
+  {
+    "id": 7,
+    "name": "fragrances"
+  },
+  {
+    "id": 8,
+    "name": "perfumes"
+  },
+  {
+    "id": 9,
+    "name": "furniture"
+  },
+  {
+    "id": 10,
+    "name": "beds"
+  },
+  {
+    "id": 11,
+    "name": "sofas"
+  },
+  {
+    "id": 12,
+    "name": "bedside tables"
+  },
+  {
+    "id": 13,
+    "name": "office chairs"
+  },
+  {
+    "id": 14,
+    "name": "bathroom"
+  },
+  {
+    "id": 15,
+    "name": "fruits"
+  },
+  {
+    "id": 16,
+    "name": "meat"
+  },
+  {
+    "id": 17,
+    "name": "pet supplies"
+  },
+  {
+    "id": 18,
+    "name": "cat food"
+  },
+  {
+    "id": 19,
+    "name": "cooking essentials"
+  },
+  {
+    "id": 20,
+    "name": "vegetables"
+  },
+  {
+    "id": 21,
+    "name": "dog food"
+  },
+  {
+    "id": 22,
+    "name": "dairy"
+  },
+  {
+    "id": 23,
+    "name": "seafood"
+  },
+  {
+    "id": 24,
+    "name": "condiments"
+  },
+  {
+    "id": 25,
+    "name": "desserts"
+  },
+  {
+    "id": 26,
+    "name": "beverages"
+  },
+  {
+    "id": 27,
+    "name": "coffee"
+  },
+  {
+    "id": 28,
+    "name": "health supplements"
+  },
+  {
+    "id": 29,
+    "name": "grains"
+  },
+  {
+    "id": 30,
+    "name": "household essentials"
+  },
+  {
+    "id": 31,
+    "name": "home decor"
+  },
+  {
+    "id": 32,
+    "name": "swing"
+  },
+  {
+    "id": 33,
+    "name": "photo frame"
+  },
+  {
+    "id": 34,
+    "name": "artificial plants"
+  },
+  {
+    "id": 35,
+    "name": "plant accessories"
+  },
+  {
+    "id": 36,
+    "name": "lighting"
+  },
+  {
+    "id": 37,
+    "name": "kitchen tools"
+  },
+  {
+    "id": 38,
+    "name": "utensils"
+  },
+  {
+    "id": 39,
+    "name": "drinkware"
+  },
+  {
+    "id": 40,
+    "name": "cups"
+  },
+  {
+    "id": 41,
+    "name": "kitchen appliances"
+  },
+  {
+    "id": 42,
+    "name": "blenders"
+  },
+  {
+    "id": 43,
+    "name": "cookware"
+  },
+  {
+    "id": 44,
+    "name": "woks"
+  },
+  {
+    "id": 45,
+    "name": "cutting boards"
+  },
+  {
+    "id": 46,
+    "name": "juicers"
+  },
+  {
+    "id": 47,
+    "name": "slicers"
+  },
+  {
+    "id": 48,
+    "name": "cooktops"
+  },
+  {
+    "id": 49,
+    "name": "strainers"
+  },
+  {
+    "id": 50,
+    "name": "glasses"
+  },
+  {
+    "id": 51,
+    "name": "graters"
+  },
+  {
+    "id": 52,
+    "name": "ice cube trays"
+  },
+  {
+    "id": 53,
+    "name": "cutlery"
+  },
+  {
+    "id": 54,
+    "name": "storage"
+  },
+  {
+    "id": 55,
+    "name": "microwaves"
+  },
+  {
+    "id": 56,
+    "name": "organization"
+  },
+  {
+    "id": 57,
+    "name": "pans"
+  },
+  {
+    "id": 58,
+    "name": "dinnerware"
+  },
+  {
+    "id": 59,
+    "name": "plates"
+  },
+  {
+    "id": 60,
+    "name": "tongs"
+  },
+  {
+    "id": 61,
+    "name": "pots"
+  },
+  {
+    "id": 62,
+    "name": "turners"
+  },
+  {
+    "id": 63,
+    "name": "serveware"
+  },
+  {
+    "id": 64,
+    "name": "trays"
+  },
+  {
+    "id": 65,
+    "name": "baking"
+  },
+  {
+    "id": 66,
+    "name": "peelers"
+  },
+  {
+    "id": 67,
+    "name": "laptops"
+  },
+  {
+    "id": 68,
+    "name": "apple"
+  },
+  {
+    "id": 69,
+    "name": "clothing"
+  },
+  {
+    "id": 70,
+    "name": "men's shirts"
+  },
+  {
+    "id": 71,
+    "name": "men's t-shirts"
+  },
+  {
+    "id": 72,
+    "name": "footwear"
+  },
+  {
+    "id": 73,
+    "name": "athletic shoes"
+  },
+  {
+    "id": 74,
+    "name": "sports cleats"
+  },
+  {
+    "id": 75,
+    "name": "casual shoes"
+  },
+  {
+    "id": 76,
+    "name": "watches"
+  },
+  {
+    "id": 77,
+    "name": "leather watches"
+  },
+  {
+    "id": 78,
+    "name": "luxury watches"
+  },
+  {
+    "id": 79,
+    "name": "electronics"
+  },
+  {
+    "id": 80,
+    "name": "smart speakers"
+  },
+  {
+    "id": 81,
+    "name": "wireless earphones"
+  }
+]

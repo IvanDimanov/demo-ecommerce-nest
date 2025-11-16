@@ -1,0 +1,95 @@
+version: "3.9"
+
+services:
+  mysql-service:
+    image: mysql:9.2
+    container_name: mysql-service
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_TCP_PORT: ${MYSQL_TCP_PORT}
+      MYSQL_INITDB_SKIP_TZINFO: "1"
+      MYSQL_ROOT_HOST: "%"
+      TZ: "UTC"
+    command: >
+      mysqld
+    ports:
+      - "${MYSQL_TCP_PORT}:${MYSQL_TCP_PORT}"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  elasticsearch-service:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.2.1
+    container_name: elasticsearch-service
+    restart: unless-stopped
+    environment:
+      discovery.type: single-node
+      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+      xpack.security.enabled: "true"
+      ELASTIC_USERNAME: ${ELASTIC_USERNAME}
+      ELASTIC_PASSWORD: ${ELASTIC_PASSWORD}
+      TZ: "UTC"
+    ports:
+      - "${ELASTIC_HTTP_PORT}:9200"
+      - "${ELASTIC_TRANSPORT_PORT}:9300"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS http://localhost:9200/_cluster/health -u ${ELASTIC_USERNAME}:${ELASTIC_PASSWORD} | grep -vq '\"status\":\"red\"'",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  db-migrations-service:
+    container_name: db-migrations-service
+    restart: no
+    build:
+      context: .
+      dockerfile: ./migrations.Dockerfile
+    depends_on:
+      mysql-service:
+        condition: service_healthy
+      elasticsearch-service:
+        condition: service_healthy
+
+  backend-service:
+    container_name: backend-service
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: ./backend.Dockerfile
+    ports:
+      - "${PORT}:${PORT}"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:${PORT}/status/ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    depends_on:
+      mysql-service:
+        condition: service_healthy
+      elasticsearch-service:
+        condition: service_healthy
+
+volumes:
+  mysql_data:
+  elasticsearch_data:

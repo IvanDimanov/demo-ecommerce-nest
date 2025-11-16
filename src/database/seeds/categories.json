@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "beauty"
+  },
+  {
+    "id": 2,
+    "name": "fragrances"
+  },
+  {
+    "id": 3,
+    "name": "furniture"
+  },
+  {
+    "id": 4,
+    "name": "groceries"
+  },
+  {
+    "id": 5,
+    "name": "home-decoration"
+  },
+  {
+    "id": 6,
+    "name": "kitchen-accessories"
+  },
+  {
+    "id": 7,
+    "name": "laptops"
+  },
+  {
+    "id": 8,
+    "name": "mens-shirts"
+  },
+  {
+    "id": 9,
+    "name": "mens-shoes"
+  },
+  {
+    "id": 10,
+    "name": "mens-watches"
+  },
+  {
+    "id": 11,
+    "name": "mobile-accessories"
+  }
+]

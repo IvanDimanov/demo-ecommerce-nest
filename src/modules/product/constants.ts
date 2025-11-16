@@ -1,0 +1,63 @@
+export const DEFAULT_PRODUCT_SELECT = [
+  'id',
+  'title',
+  'description',
+  'brand',
+  'price',
+  'stock',
+] as const;
+
+export const AVAILABLE_PRODUCT_SELECT = [
+  'id',
+  'title',
+  'description',
+  'category',
+  'tags',
+  'price',
+  'discountPercentage',
+  'rating',
+  'stock',
+  'availabilityStatus',
+  'brand',
+  'sku',
+  'weight',
+  'warrantyInformation',
+  'shippingInformation',
+  'returnPolicy',
+  'minimumOrderQuantity',
+  'thumbnail',
+] as const;
+
+export const AVAILABLE_PRODUCT_SEARCH = [
+  'title',
+  'description',
+  'category',
+  'tags',
+  'brand',
+  'sku',
+  'price',
+  'rating',
+  'weight',
+  'warrantyInformation',
+  'shippingInformation',
+  'returnPolicy',
+  'minimumOrderQuantity',
+] as const;
+
+export const AVAILABLE_PRODUCT_ORDER_BY = [
+  'id',
+  'title',
+  'description',
+  'brand',
+  'price',
+  'discountPercentage',
+  'rating',
+  'stock',
+  'availabilityStatus',
+  'sku',
+  'weight',
+  'warrantyInformation',
+  'shippingInformation',
+  'returnPolicy',
+  'minimumOrderQuantity',
+] as const;
