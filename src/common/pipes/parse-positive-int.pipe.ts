@@ -1,4 +1,9 @@
-import { PipeTransform, Injectable, BadRequestException } from '@nestjs/common';
+import {
+  PipeTransform,
+  Injectable,
+  BadRequestException,
+  ArgumentMetadata,
+} from '@nestjs/common';
 
 @Injectable()
 export class ParsePositiveIntPipe implements PipeTransform<string, number> {
@@ -23,26 +28,30 @@ export class ParsePositiveIntPipe implements PipeTransform<string, number> {
     return new ParsePositiveIntPipe(maxValue);
   }
 
-  transform(value: string): number {
+  transform(value: string, metadata: ArgumentMetadata): number {
     const val = Number(value);
 
     if (Number.isNaN(val)) {
-      throw new BadRequestException(`Value is not a valid number: "${value}"`);
+      throw new BadRequestException(
+        `${metadata.data} parameter is not a valid number: "${value}"`,
+      );
     }
 
     if (!Number.isInteger(val)) {
-      throw new BadRequestException(`Value is not an integer: "${value}"`);
+      throw new BadRequestException(
+        `${metadata.data} parameter is not an integer: "${value}"`,
+      );
     }
 
     if (val <= 0) {
       throw new BadRequestException(
-        `Value is not a positive integer: "${value}"`,
+        `${metadata.data} parameter is not a positive integer: "${value}"`,
       );
     }
 
     if (this.maxValue !== undefined && val > this.maxValue) {
       throw new BadRequestException(
-        `"${value}" is greater than the allowed maximum (${this.maxValue})`,
+        `${metadata.data} parameter value "${value}" is greater than the allowed maximum (${this.maxValue})`,
       );
     }
 

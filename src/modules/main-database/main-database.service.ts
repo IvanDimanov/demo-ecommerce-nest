@@ -22,8 +22,8 @@ import type {
   AvailabilityStatus,
 } from './dto';
 import { PaginatedResponse } from '../../common/dto/paginated-response.dto';
-import { textSearchOperations as categoryTextSearchOperations } from '../../modules/category/pipes/zod-parse-category-search';
-import { textSearchOperations as productTextSearchOperations } from '../../modules/product/pipes/zod-parse-product-search';
+import { textSearchOperations as categoryTextSearchOperations } from '../category/pipes/zod-parse-category-search';
+import { textSearchOperations as productTextSearchOperations } from '../product/pipes/zod-parse-product-search';
 
 const injectKysely = InjectKysely as (namespace?: string) => ParameterDecorator;
 
